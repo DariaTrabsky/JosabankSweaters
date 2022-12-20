@@ -1,0 +1,22 @@
+
+Scenario :As a User I want to be able to be able to order Zip Front Sweaters from Josbank
+
+
+
+Given User navigates to the home page https://www.josbank.com/
+
+Then User verifies if “Sweaters” tab is on the home page
+
+Then User clicks on the  “Sweaters” tab
+
+And user verifies “Zip Front” option is available from the “Sweaters” dropdown menu
+
+Then User clicks on the  ““Zip Front” option
+
+User verifies filter options such as SIZE, TYPE are on the page 
+
+Then User verifies filter options such as SIZE, TYPE, have their own drop down menus
+
+And User verifies filter option SIZE, drop down menu has check box fields (SMALL, MEDIUM, LARGE) that are available for selection 
+
+And User verifies filter option TYPE, drop down menu has check box fields (SWEATER VESTS, SWEATERS) that are available for selection 
